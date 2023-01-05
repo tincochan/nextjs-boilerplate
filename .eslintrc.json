@@ -1,0 +1,18 @@
+{
+  "extends": [
+    "@sota1235/eslint-config/react",
+    "plugin:@next/next/recommended",
+    "plugin:storybook/recommended"
+  ],
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "react/no-unknown-property": [
+      2,
+      {
+        "ignore": [
+          "jsx"
+        ]
+      }
+    ]
+  }
+}
